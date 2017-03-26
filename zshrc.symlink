@@ -33,11 +33,9 @@ source $ZSH/oh-my-zsh.sh
 alias subl='/Applications/Sublime\ Text\.app/Contents/SharedSupport/bin/subl --new-window $@'
 alias python='python3'
 alias gs="git status"
-alias glc="git pull origin \$(current_branch)"
-alias gpc="git push origin \$(current_branch)"
-alias gpcfl="git push origin \$(current_branch) --force-with-lease"
-alias gbr="git branch -r"
-alias gadd="git add ."
+alias gpl="git pull origin \$(current_branch)"
+alias gps="git push origin \$(current_branch)"
+alias gad="git add ."
 
 # Docker aliases
 COMPOSE='docker-compose'
